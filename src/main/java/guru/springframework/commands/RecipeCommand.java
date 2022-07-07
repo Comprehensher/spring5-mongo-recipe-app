@@ -47,9 +47,9 @@ public class RecipeCommand {
     @NotBlank
     private String directions;
 
-    private List<IngredientCommand> ingredients = new ArrayList<>();
+    private List<IngredientCommand> ingredients = new ArrayList<IngredientCommand>();
     private Byte[] image;
     private Difficulty difficulty;
     private NotesCommand notes;
-    private List<CategoryCommand> categories = new ArrayList<>();
+    private List<CategoryCommand> categories = new ArrayList<CategoryCommand>();
 }
